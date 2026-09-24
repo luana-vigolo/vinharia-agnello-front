@@ -203,3 +203,35 @@ nav a {
     margin: 7px;
 }
 }
+
+.imagem-produto {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 15px auto;
+}
+
+.galeria-imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.imagem-galeria {
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.imagem-contato {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
