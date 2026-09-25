@@ -48,6 +48,7 @@ vinharia-agnello/
 ├── src/
 │   ├── assets/
 │   │   └── imgs/
+|   |     └── video/
 │   ├── css/
 │   │   └── style.css
 │   ├── js/
@@ -67,7 +68,7 @@ vinharia-agnello/
 ## 🔗 Repositório / GitHub Pages
 
 * GitHub:
-COLE AQUI O LINK DO REPOSITÓRIO
+https://github.com/luana-vigolo/vinharia-agnello-front.git
 
 * GitHub Pages:
-COLE AQUI O LINK DO GITHUB PAGES
+https://luana-vigolo.github.io/vinharia-agnello-front/
