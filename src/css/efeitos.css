@@ -20,6 +20,29 @@
 ================================= */
 
 /* Código da Luana */
+nav a {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
 
+nav a:hover {
+    transform: scale(1.12);
+    color: #c49a50;
+}
 
+/* botões */
+.botao {
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        box-shadow 0.3s ease,
+        transform 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #c49a50;
+    color: #3d1f2b;
+    box-shadow: 0 5px 14px rgba(61, 31, 43, 0.18);
+    transform: translateY(-2px);
+}
 /* =================================
