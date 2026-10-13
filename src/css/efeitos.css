@@ -5,6 +5,43 @@
 
 /* Código da Gabrielle */
 
+/* Ornamento decorativo */
+
+h2::after {
+    content: "⚜ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ⚜";
+    display: block;
+    color: #C5A059;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+
+nav a {
+    position: relative;
+    text-decoration: none;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #c49a50;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+::selection {
+    background-color: #3d1f2b;
+    color: #FFFFFF;
+}
+
+
 
 /* =================================
    2. ANIMAÇÕES E TRANSFORMAÇÕES

@@ -398,3 +398,15 @@ td {
     margin-bottom: 12px;
     line-height: 1.6;
 }
+
+.nome-vinho {
+    font-size: 24px;
+    font-weight: bold;
+    color: #7a3f55;
+}
+
+
+.imagem-produto + p {
+    text-align: center;
+}
+
