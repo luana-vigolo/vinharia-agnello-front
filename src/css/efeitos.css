@@ -30,7 +30,6 @@ nav a:hover {
     color: #c49a50;
 }
 
-/* botões */
 .botao {
     transition:
         background-color 0.3s ease,
@@ -44,5 +43,27 @@ nav a:hover {
     color: #3d1f2b;
     box-shadow: 0 5px 14px rgba(61, 31, 43, 0.18);
     transform: translateY(-2px);
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.06);
+    box-shadow: 0 8px 20px rgba(61, 31, 43, 0.18);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid #c49a50;
+    outline-offset: 2px;
+    border-color: #c49a50;
+}
+
+nav a:focus-visible,
+.botao:focus-visible {
+    outline: 2px solid #c49a50;
+    outline-offset: 4px;
 }
 /* =================================
