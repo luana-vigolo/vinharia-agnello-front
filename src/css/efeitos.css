@@ -57,6 +57,50 @@ nav a:hover::after {
 ================================= */
 
 /* Código da Luana */
+nav a {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
 
+nav a:hover {
+    transform: scale(1.12);
+    color: #c49a50;
+}
 
+.botao {
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        box-shadow 0.3s ease,
+        transform 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #c49a50;
+    color: #3d1f2b;
+    box-shadow: 0 5px 14px rgba(61, 31, 43, 0.18);
+    transform: translateY(-2px);
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.06);
+    box-shadow: 0 8px 20px rgba(61, 31, 43, 0.18);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid #c49a50;
+    outline-offset: 2px;
+    border-color: #c49a50;
+}
+
+nav a:focus-visible,
+.botao:focus-visible {
+    outline: 2px solid #c49a50;
+    outline-offset: 4px;
+}
 /* =================================
