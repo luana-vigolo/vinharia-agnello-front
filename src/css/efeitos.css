@@ -70,6 +70,19 @@ nav a:hover::after {
     animation: aparecer 2.2s ease-out;
 }
 
+/* Aumentar imagens */
+.hero-imagem img,
+.imagem-produto,
+.imagem-galeria {
+    transition: transform 0.9s ease;
+}
+
+.hero-imagem img:hover,
+.imagem-produto:hover,
+.imagem-galeria:hover {
+    transform: scale(2.05);
+}
+
 
 /* =================================
    3. PSEUDO-CLASSES
