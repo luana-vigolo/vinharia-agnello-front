@@ -36,6 +36,11 @@ nav a:hover::after {
     width: 100%;
 }
 
+::selection {
+    background-color: #3d1f2b;
+    color: #FFFFFF;
+}
+
 
 
 /* =================================
