@@ -49,6 +49,49 @@ nav a:hover::after {
 ================================= */
 
 /* Código da Fernanda */
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-text,
+.destaques h2 {
+    animation: aparecer 2s ease-out;
+}
+
+.card {
+    animation: aparecer 2.2s ease-out;
+}
+
+/* Aumentar imagens */
+.hero-imagem img,
+.imagem-produto,
+.imagem-galeria {
+    transition: transform 0.9s ease;
+}
+
+.hero-imagem img:hover,
+.imagem-produto:hover,
+.imagem-galeria:hover {
+    transform: scale(2.05);
+}
+
+/* Alteração dos cards */
+.card {
+    transition: transform 0.8s ease, box-shadow 0.8s ease;
+}
+
+.card:hover {
+    transform: rotate(6deg) scale(1.03);
+    box-shadow: 0 8px 20px rgba(61, 31, 43, 0.18);
+}
 
 
 /* =================================
