@@ -1,12 +1,3 @@
-/* =================================
-   1. PSEUDO-ELEMENTOS
-   Responsável: Gabrielle
-================================= */
-
-/* Código da Gabrielle */
-
-/* Ornamento decorativo */
-
 h2::after {
     content: "⚜ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ⚜";
     display: block;
@@ -41,14 +32,6 @@ nav a:hover::after {
     color: #FFFFFF;
 }
 
-
-
-/* =================================
-   2. ANIMAÇÕES E TRANSFORMAÇÕES
-   Responsável: Fernanda
-================================= */
-
-/* Código da Fernanda */
 @keyframes aparecer {
     from {
         opacity: 0;
@@ -70,20 +53,18 @@ nav a:hover::after {
     animation: aparecer 2.2s ease-out;
 }
 
-/* Aumentar imagens */
 .hero-imagem img,
 .imagem-produto,
 .imagem-galeria {
-    transition: transform 0.9s ease;
+    transition: transform 0.6s ease;
 }
 
 .hero-imagem img:hover,
 .imagem-produto:hover,
 .imagem-galeria:hover {
-    transform: scale(2.05);
+    transform: scale(1.12);
 }
 
-/* Alteração dos cards */
 .card {
     transition: transform 0.8s ease, box-shadow 0.8s ease;
 }
@@ -93,13 +74,6 @@ nav a:hover::after {
     box-shadow: 0 8px 20px rgba(61, 31, 43, 0.18);
 }
 
-
-/* =================================
-   3. PSEUDO-CLASSES
-   Responsável: Luana
-================================= */
-
-/* Código da Luana */
 nav a {
     display: inline-block;
     transition: transform 0.3s ease, color 0.3s ease;
@@ -124,6 +98,7 @@ nav a:hover {
     box-shadow: 0 5px 14px rgba(61, 31, 43, 0.18);
     transform: translateY(-2px);
 }
+
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -146,4 +121,3 @@ nav a:focus-visible,
     outline: 2px solid #c49a50;
     outline-offset: 4px;
 }
-/* =================================
